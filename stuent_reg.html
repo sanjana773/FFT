@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title>STUDENT REGISTER</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            form{
+                border: 1px solid black;
+                width: 500px;
+                margin-left: 300px;   
+                box-shadow: 5px 10px 15px black;
+            }
+            label{
+                margin-left: 110px;
+            }
+            #i1{
+                height: 30px;
+                width: 200px;
+            }
+            form{
+                background-color: rgb(133, 141, 250);
+                border-radius: 10px;
+            }
+            #b1{
+                margin-left: 100px;
+                margin-bottom: 10px;
+                background-color: rgba(55, 206, 118, 0.534);
+                width: 50px;
+                height: 25px;
+                border-radius: 5px;
+            }
+            #b1:hover{
+                background-color: aliceblue;
+            }
+            #i2{
+                margin-left: 68px;
+                height: 30px;
+                width: 200px;
+            }
+            #i3{
+                margin-left: 68px;
+                height: 30px;
+                width: 200px;
+            }
+            #i4{
+                margin-left: 50px;
+                height: 30px;
+                width: 200px;
+            }
+            #i5{
+                margin-left: 46px;
+                height: 30px;
+                width: 200px;
+            }
+            #i6{
+                margin-left: 37px;
+                height: 30px;
+                width: 200px;
+            }
+            #i7{
+                margin-left: 68px;
+                height: 30px;
+                width: 200px;
+            }
+            #i8{
+                margin-left: 68px;
+                height: 30px;
+                width: 200px;
+            }
+            #i9{
+                margin-left: 68px;
+                height: 30px;
+                width: 200px;
+            }
+            #male{
+                margin-left: 55px;
+            }
+            #Course{
+                margin-left: 67px;
+            }
+            #section{
+                margin-left: 66px;
+            }
+            #i7{
+                margin-left: 20px;
+                height: 30px;
+                width: 200px;
+            }
+            #i8{
+                margin-left: 60px;
+                height: 30px;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1>Student Register form</h1> 
+            <label >Register number:</label>
+            <input type="number" id="i1" placeholder="enter you reg id" required><br><br>
+            <label>Name:</label>
+            <input type="text" id="i2"><br><br>
+            <label>DOB:</label>
+            <input type="date" id="i3"><br><br>
+            <label>gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+             male
+            <input type="radio" id="female" name="gender" value="female">
+             female
+            <input type="radio" id="others" name="gender" value="others">
+            Others<br><br>           
+            <label>Email id:</label>
+            <input type="email" id="i4"><br><br>
+            <label>Phone no:</label>
+            <input type="number" id="i5"><br><br>
+            <label>department:</label>
+            <input type="text" id="i6"><br><br>
+            <label>Course</label>
+            <select name="Course" id="Course">
+                <option>choose</option>
+                <option value="MCA">MCA</option>
+                <option value="MBA">MBA</option>
+                <option value="M.com">M.com</option>
+            </select><br><br>
+            <label>Section</label>
+            <select name="section" id="section">
+                <option value="A">section A</option>
+                <option value="B">section B</option>
+                <option value="C">section C</option>
+            </select><br><br>
+            <label>College name:</label>
+            <input type="text" id="i7"><br><br>
+            <label>Address</label>
+            <input type="text" id="i8"><br><br>
+            <label>Resume:</label>
+            <input type="file" id="i9"><br><br>
+            <button id="b1">Submit</button>
+             <button id="b2">reset</button>
+        </form>
+    </body>
+</html>
